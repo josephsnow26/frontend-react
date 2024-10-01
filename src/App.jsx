@@ -30,9 +30,11 @@ function App() {
             </ProtectedRoute>
           } 
         />
-        <Route path="/login" element={<Add />} />  {/* Ensure you're using Add here */}
-        <Route path="/notfound" element={<NotFound />} />
+        <Route path="/login" element={<Add />} /> 
+        <Route path="/logout" element={<Logout />} /> 
+
         <Route path="/register" element={<RegisterAndLogout />} />
+        <Route path="*" element={<NotFound />} /> 
       </Routes> 
     </BrowserRouter>
   )

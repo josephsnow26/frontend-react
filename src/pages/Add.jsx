@@ -1,5 +1,5 @@
 function Add() {
-    return <div>Login</div>
+    return <form route="/api/token/" method="login" />
 }
 
 export default Add
