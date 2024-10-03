@@ -1,5 +1,6 @@
+import Form from "../components/form";
 function Add() {
-    return <form route="/api/token/" method="login" />
+    return <Form route="/api/token/" method="login" />
 }
 
 export default Add
